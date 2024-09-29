@@ -1,0 +1,115 @@
+/* Radial gradient background */
+body {
+  background: radial-gradient(circle at top left, #ff9a9e 0%, #fad0c4 100%);
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for the post form */
+.PostPage {
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 40px auto;
+  border: 2px solid #ffc3a0;
+}
+
+/* Label styles with a playful color */
+.PostPage .ui.form .field > label {
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #5c4d7d;
+  font-size: 1.1rem;
+  display: block;
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* Playful font */
+}
+
+/* Input fields styles */
+.PostPage .ui.form .field > input,
+.PostPage .ui.form .field > textarea {
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  padding: 12px;
+  font-size: 1.05rem;
+  margin-bottom: 15px;
+  width: 100%; /* Make input fields full width */
+  max-width: 700px; /* Set maximum width to make them longer */
+  font-family: 'Arial', sans-serif;
+}
+
+/* Focus state for inputs and textareas */
+.PostPage .ui.form .field > input:focus,
+.PostPage .ui.form .field > textarea:focus {
+  border-color: #5c4d7d;
+  outline: none;
+  box-shadow: 0px 0px 5px rgba(92, 77, 125, 0.5);
+}
+
+/* Style for text areas to make them more spacious */
+.PostPage .ui.form .field > textarea {
+  min-height: 180px;
+}
+
+/* Enhanced header style */
+.PostPage .ui.header {
+  color: #3c1361;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #fff1e6;
+  border-bottom: 2px solid #ffc3a0;
+  border-radius: 8px;
+}
+
+/* Description under header */
+.PostPage .ui.header ~ p {
+  color: #564a4a;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  background-color: #fff5f5;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ffa69e;
+}
+
+/* Radio button styling */
+.RadioGroup {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif;
+  color: #564a4a;
+}
+
+/* Making the post button goofy and aesthetic */
+.PostPage .ui.button {
+  background-color: #ff6f61;
+  color: #ffffff;
+  padding: 12px 25px;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  cursor: pointer;
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* Playful font */
+  border: 2px solid #ff9770;
+}
+
+.PostPage .ui.button:hover {
+  background-color: #ff9770;
+  transform: rotate(-3deg) scale(1.05);
+}
+
+/* Disabled button state */
+.PostPage .ui.button:disabled {
+  background-color: #d3d3d3;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Shadows and padding adjustments */
+.PostPage {
+  padding: 30px 40px;
+}
